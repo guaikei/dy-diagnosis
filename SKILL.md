@@ -6,6 +6,11 @@ name: dy-diagnosis
 description: 抖音账号诊断数据只读：关键词搜视频/图文、用户/达人搜索、博主作品、作品详情、评论、热榜；可做公域获客/竞品截流（search→comment）与需求挖掘。触发：抖音搜索、搜用户、找达人、找对标账号、获客、线索、截流、高意向、热搜、评论、需求挖掘、痛点、作品详情、博主作品、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin user search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音账号诊断数据｜博主作品·作品表现·评论反馈·对标账号"
+display_name_en: "Douyin Diagnosis"
+description_zh: "抖音账号诊断公开数据源（只读）：关键词搜索视频与图文、用户/达人搜索（找对标账号）、博主作品与粉丝互动数据、单条作品详情（文案/播放/点赞）、视频图文评论、实时热榜，全部输出结构化 JSON 供 AI 直接做账号诊断报告；支持综合/最多点赞/最新排序与近1日/近7日时间、时长、内容类型多维筛选，可按剧本做需求挖掘与公域获客/竞品截流线索（搜索→评论）。不登录、不发布、不点赞、不评论。按量单次最多 1 万条；包月视频搜索/用户搜索/作品最多 30、评论最多 50（详情与热榜无条数限制），超限返回 PLAN_LIMIT（退出码 1），降 limit 或升级须用户同意后再跑。适用于账号诊断、对标账号分析、作品表现复盘与评论反馈洞察。"
+description_en: "Read-only Douyin account-diagnosis data source: keyword search for videos and image posts, user and creator search for benchmark accounts, creator posts plus follower and engagement stats, post detail (caption, plays, likes), video and image-post comments, and real-time trending - all as structured JSON an AI can turn into an account-diagnosis report. Supports relevance / most-liked / latest sorting plus 1-day / 7-day time windows, duration and content-type filters, with demand-mining and public-lead / competitor-intercept playbooks (search to comments). No login, posting, liking or commenting. Pay-per-use caps at 10,000 items per call; monthly plans cap video search / user search / creator videos at 30 and comments at 50 (post detail and trending unlimited), returning PLAN_LIMIT (exit code 1) on breach - lower --limit or upgrade with user consent before retrying. Ideal for account diagnosis, benchmark-account analysis and comment-feedback insight."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
